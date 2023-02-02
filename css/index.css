@@ -1,0 +1,71 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	/*background-image: url('images/bg-hero-mobile.svg');*/
+	background-color: #354259;
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	padding-top: 30px;
+	
+	color: #DACC96;
+	font-family: 'VT323', monospace;
+	font-size: 7rem;
+	letter-spacing: 0.5rem;
+}
+
+
+/* UTILITIES */
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.large-gap{
+	gap: 8rem;
+}
+.small-gap{
+	gap: 5rem;
+}
+.row-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5rem;
+}
+.red-bg{
+	background-color: red;
+}
+
+
+
+/* BUTTON */
+
+.btn{
+	width: 200px;
+	height: 200px;
+	border: 10px solid black;
+	border-radius: 30px;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+}
